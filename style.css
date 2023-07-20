@@ -67,19 +67,20 @@ body {
     display: grid;
     grid-template-rows: 80px 200px 100px;
     grid-row: 1 / -1;
-    padding: 15px;
+    padding: 24px;
 }
 
 img {
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
 }
 
 img#bar-pfp {
-    width: 33px;
-    height: 33px;
+    width: 44px;
+    height: 44px;
     border: 1px solid white;;
     border-radius: 48px;
+    justify-self: end;
 }
 
 .trend-img {
@@ -120,7 +121,7 @@ li {
     font-weight: bold;
     display: grid;
     grid-template-columns: 25px 1fr;
-    gap: 12px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -147,11 +148,11 @@ li > img {
 .top-bar-right {
     justify-self: end;
     display: grid;
-    grid-template-columns: repeat(3, 33px);
+    grid-template-columns: 33px 66px 65px;
     grid-template-rows: 33px;
     justify-items: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
 }
 
 .menu {
@@ -172,10 +173,17 @@ li > img {
     background-color: #7c3aed;
     border-radius: 16px;
     height: 45px;
-    width: 90px;
+    width: 100px;
     color: white;
     font-weight: bold;
     font-size: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-self: end;
 }
 
 .menu > img {
@@ -195,10 +203,6 @@ li > img {
 .text-large {
     font-size: 24px;
     font-weight: 700;
-}
-
-.buttons {
-    justify-self: center;
 }
 
 .sidebar-right {
@@ -221,7 +225,7 @@ li > img {
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 15px;
+    gap: 30px;
 }
 
 .card {
@@ -277,7 +281,7 @@ li > img {
     grid-row: 4;
     grid-column: 3 / 4;
     display: grid;
-    grid-template-rows: 30px repeat(4, 1fr);
+    grid-template-rows: 45px repeat(4, 75px);
     align-items: start;
 }
 
@@ -287,6 +291,7 @@ li > img {
     grid-template-rows: 1fr 1fr;
     align-items: end;
     justify-self: start;
+    gap: 5px;
 }
 
 .trend>.name {
