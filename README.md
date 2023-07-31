@@ -1,2 +1,2 @@
 # admin-dashboard
-Dashboard design made with CSS Grid
+Dashboard layout made for practicing CSS Grid
